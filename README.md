@@ -66,7 +66,21 @@ Every `save_each`, the model parameters will be stored in a particular folder. G
 For instance, the parameters of `TransE` on `EduKG` at the epoch 10 can be retrieved at the following address:
 
     $ <Current Directory>/models/EduKG/TransE/10.pt
-    
+
+## Best Found Hyperparameters
+
+|                          |          | $k$ | $\eta$   | $\gamma$ |
+|--------------------------|----------|-------------------------|----------|----------|
+| EduKG     | TransE   | $100$                   | $0.003$  | $5$      |
+|                          | DistMult | $100$                   | $0.0003$ | $5$      |
+|                          | ComplEx  | $100$                   | $0.0003$ | $5$      |
+| FB15K-237 | TransE   | $200$                   | $0.003$  | $5$      |
+|                          | DistMult | $200$                   | $0.0005$ | $5$      |
+|                          | ComplEx  | $200$                   | $0.0005$ | $5$      |
+| KG20C     | TransE   | $200$                   | $0.01$   | $5$      |
+|                          | DistMult | $200$                   | $0.001$  | $5$      |
+|                          | ComplEx  | $200$                   | $0.001$  | $5$      |
+
 ## Cite
 
 To update when appropriate.
