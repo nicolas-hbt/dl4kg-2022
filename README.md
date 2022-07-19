@@ -83,7 +83,7 @@ For instance, the parameters of `TransE` on `EduKG` at the epoch 10 can be retri
 
 ## Cite
 
-To update when appropriate.
+To be updated when appropriate.
 
 ## Contact
 Nicolas Hubert
